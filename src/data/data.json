@@ -1,0 +1,1203 @@
+{
+  "user_database": {
+    "Admin1": { "user_id": 1, "password": "admin" },
+    "Admin2": { "user_id": 2, "password": "admin" },
+    "Admin3": { "user_id": 3, "password": "admin" },
+    "Admin4": { "user_id": 4, "password": "admin" },
+    "Admin5": { "user_id": 5, "password": "admin" },
+    "Namvu": { "user_id": 6, "password": "namvu" },
+    "Test": { "user_id": 7, "password": "test" }
+  },
+  "current_user_id": 8,
+  "group_id_cnt": 14,
+  "group_chats_db": {
+    "group1": {
+      "group_name": "Group chat 1",
+      "member_ids": [1, 2, 3, 4, 5, 6, 7],
+      "message_db": {
+        "msg1": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "Join to group chat 1",
+          "create_at": "2024-02-04 17:07:33.420024"
+        },
+        "msg2": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "chao moi ngui`",
+          "create_at": "2024-02-07 19:32:28.229802"
+        },
+        "msg3": {
+          "user_id": 3,
+          "user_name": "Admin3",
+          "message": "hello",
+          "create_at": "2024-02-07 19:32:46.655076"
+        },
+        "msg4": {
+          "user_id": 3,
+          "user_name": "Admin3",
+          "message": "gRPC lo~ du v",
+          "create_at": "2024-02-07 19:33:01.241538"
+        },
+        "msg5": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "....",
+          "create_at": "2024-02-07 19:38:04.523621"
+        },
+        "msg6": {
+          "user_id": 2,
+          "user_name": "Admin2",
+          "message": "???",
+          "create_at": "2024-02-07 19:38:08.085943"
+        },
+        "msg7": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "Ok khong v ba???",
+          "create_at": "2024-02-08 07:21:33.993696"
+        },
+        "msg8": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "Hop de",
+          "create_at": "2024-02-08 10:37:04.364847"
+        },
+        "msg9": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "May ong noi",
+          "create_at": "2024-02-08 10:37:10.264997"
+        },
+        "msg10": {
+          "user_id": 2,
+          "user_name": "Admin2",
+          "message": "Chao ban",
+          "create_at": "2024-02-08 15:43:39.665142"
+        },
+        "msg11": {
+          "user_id": 7,
+          "user_name": "Test",
+          "message": "asd",
+          "create_at": "2024-02-08 15:58:02.322508"
+        },
+        "msg12": {
+          "user_id": 7,
+          "user_name": "Test",
+          "message": "asd",
+          "create_at": "2024-02-08 15:58:10.964406"
+        }
+      },
+      "msg_group_count": 12
+    },
+    "group2": {
+      "group_name": "Group chat 2",
+      "member_ids": [1, 2, 3, 4, 5],
+      "message_db": {
+        "msg1": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "Join to group chat 2",
+          "create_at": "2024-02-04 17:07:33.420024"
+        },
+        "msg2": {
+          "user_id": 2,
+          "user_name": "Admin2",
+          "message": "Join to group chat 2",
+          "create_at": "2024-02-04 17:07:33.420024"
+        },
+        "msg3": {
+          "user_id": 3,
+          "user_name": "Admin3",
+          "message": "Join to group chat 2",
+          "create_at": "2024-02-04 17:07:33.420024"
+        },
+        "msg4": {
+          "user_id": 4,
+          "user_name": "Admin4",
+          "message": "Join to group chat 2",
+          "create_at": "2024-02-04 17:07:33.420024"
+        },
+        "msg5": {
+          "user_id": 5,
+          "user_name": "Admin5",
+          "message": "Join to group chat 2",
+          "create_at": "2024-02-04 17:07:33.420024"
+        },
+        "msg6": {
+          "user_id": 2,
+          "user_name": "Admin2",
+          "message": "Hello xD",
+          "create_at": "2024-02-04 17:07:33.420024"
+        },
+        "msg7": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "Hi every oneee",
+          "create_at": "2024-02-07 10:25:03.761621"
+        },
+        "msg8": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "Hmm",
+          "create_at": "2024-02-07 10:30:17.359630"
+        },
+        "msg9": {
+          "user_id": 2,
+          "user_name": "Admin2",
+          "message": "Hi bro",
+          "create_at": "2024-02-07 10:46:37.901218"
+        },
+        "msg10": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "hi m.ng",
+          "create_at": "2024-02-07 18:15:43.346815"
+        }
+      },
+      "msg_group_count": 10
+    },
+    "group3": {
+      "group_name": "Group chat 3",
+      "member_ids": [1, 2, 3],
+      "message_db": {
+        "msg1": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "Join to group chat 3",
+          "create_at": "2024-02-04 17:07:33.420024"
+        }
+      },
+      "msg_group_count": 1
+    },
+    "group4": {
+      "group_name": "Group chat 4",
+      "member_ids": [2, 3, 4, 5],
+      "message_db": {
+        "msg1": {
+          "user_id": 2,
+          "user_name": "Admin2",
+          "message": "Join to group chat 4",
+          "create_at": "2024-02-04 17:07:33.420024"
+        }
+      },
+      "msg_group_count": 1
+    },
+    "group5": {
+      "group_name": "Group chat 5",
+      "member_ids": [1, 2, 4, 5],
+      "message_db": {
+        "msg1": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "Join to group chat 5",
+          "create_at": "2024-02-04 17:07:33.420024"
+        },
+        "msg2": {
+          "user_id": 5,
+          "user_name": "Admin5",
+          "message": "helo",
+          "create_at": "2024-02-08 10:38:20.111375"
+        }
+      },
+      "msg_group_count": 2
+    },
+    "group6": {
+      "group_name": "Chuyen De Mang",
+      "member_ids": [2, 7],
+      "message_db": {},
+      "msg_group_count": 0
+    },
+    "group7": {
+      "group_name": "Test",
+      "member_ids": [1, 6],
+      "message_db": {},
+      "msg_group_count": 0
+    },
+    "group8": {
+      "group_name": "test",
+      "member_ids": [4, 1],
+      "message_db": {
+        "msg1": {
+          "user_id": 4,
+          "user_name": "Admin4",
+          "message": "e",
+          "create_at": "2024-02-08 09:44:46.312208"
+        }
+      },
+      "msg_group_count": 1
+    },
+    "group9": {
+      "group_name": "heheheh",
+      "member_ids": [1, 4],
+      "message_db": {},
+      "msg_group_count": 0
+    },
+    "group10": {
+      "group_name": "hmm",
+      "member_ids": [4],
+      "message_db": {},
+      "msg_group_count": 0
+    },
+    "group11": {
+      "group_name": "TEst1",
+      "member_ids": [2],
+      "message_db": {},
+      "msg_group_count": 0
+    },
+    "group12": {
+      "group_name": "hjk",
+      "member_ids": [2, 6, 3, 4, 5],
+      "message_db": {
+        "msg1": {
+          "user_id": 2,
+          "user_name": "Admin2",
+          "message": "e",
+          "create_at": "2024-02-08 11:20:37.621058"
+        },
+        "msg2": {
+          "user_id": 6,
+          "user_name": "Namvu",
+          "message": "ha",
+          "create_at": "2024-02-08 11:20:57.549499"
+        }
+      },
+      "msg_group_count": 2
+    },
+    "group13": {
+      "group_name": "asd",
+      "member_ids": [2, 1],
+      "message_db": {},
+      "msg_group_count": 0
+    },
+    "group14": {
+      "group_name": "test1111",
+      "member_ids": [7, 1, 2, 3, 4, 5, 6],
+      "message_db": {
+        "msg1": {
+          "user_id": 1,
+          "user_name": "Admin1",
+          "message": "heelo",
+          "create_at": "2024-02-08 15:59:12.497367"
+        }
+      },
+      "msg_group_count": 1
+    }
+  },
+  "private_chats_db": {
+    "1": {
+      "2": {
+        "recipient_user_name": "Admin2",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "Hello",
+            "create_at": "2024-02-04 17:07:33.420024"
+          },
+          "msg2": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "Hi bro",
+            "create_at": "2024-02-07 09:53:30.281408"
+          },
+          "msg3": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "Chao ban",
+            "create_at": "2024-02-07 10:24:45.245792"
+          },
+          "msg4": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "Tui khong on roi",
+            "create_at": "2024-02-07 10:24:54.836608"
+          },
+          "msg5": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "test1",
+            "create_at": "2024-02-07 10:29:59.092864"
+          },
+          "msg6": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "test",
+            "create_at": "2024-02-07 10:45:35.026855"
+          },
+          "msg7": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "asd",
+            "create_at": "2024-02-07 10:46:09.020774"
+          },
+          "msg8": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "chao ban",
+            "create_at": "2024-02-07 10:46:57.513651"
+          },
+          "msg9": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "hi",
+            "create_at": "2024-02-07 17:22:49.060222"
+          },
+          "msg10": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "chao ban",
+            "create_at": "2024-02-07 17:23:11.022270"
+          },
+          "msg11": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "hi",
+            "create_at": "2024-02-07 17:31:10.115968"
+          },
+          "msg12": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "test1",
+            "create_at": "2024-02-07 17:36:49.757745"
+          },
+          "msg13": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "hi",
+            "create_at": "2024-02-07 17:53:31.143709"
+          },
+          "msg14": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "hi",
+            "create_at": "2024-02-07 18:14:51.386231"
+          },
+          "msg15": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "xong roiii",
+            "create_at": "2024-02-07 18:15:07.482553"
+          },
+          "msg16": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "met lam roi huhuhu",
+            "create_at": "2024-02-07 18:15:23.723380"
+          },
+          "msg17": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "test1",
+            "create_at": "2024-02-07 18:17:20.507544"
+          },
+          "msg18": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "Hi",
+            "create_at": "2024-02-07 19:02:45.560299"
+          },
+          "msg19": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "on khong ban",
+            "create_at": "2024-02-07 19:03:21.010483"
+          },
+          "msg20": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "a",
+            "create_at": "2024-02-07 19:04:52.714541"
+          },
+          "msg21": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "a",
+            "create_at": "2024-02-07 19:09:52.539139"
+          },
+          "msg22": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "a",
+            "create_at": "2024-02-07 19:11:06.192522"
+          },
+          "msg23": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "chao ban",
+            "create_at": "2024-02-07 19:11:44.882531"
+          },
+          "msg24": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "ban",
+            "create_at": "2024-02-07 19:13:03.647953"
+          },
+          "msg25": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "ban",
+            "create_at": "2024-02-07 19:13:07.711782"
+          },
+          "msg26": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "a",
+            "create_at": "2024-02-07 19:18:17.743244"
+          },
+          "msg27": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "a",
+            "create_at": "2024-02-07 19:22:01.251195"
+          },
+          "msg28": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "a",
+            "create_at": "2024-02-07 19:22:51.755166"
+          },
+          "msg29": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "asd",
+            "create_at": "2024-02-07 19:22:54.843273"
+          },
+          "msg30": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "helloooo",
+            "create_at": "2024-02-07 19:23:05.513564"
+          },
+          "msg31": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "aaa",
+            "create_at": "2024-02-07 19:26:17.411373"
+          },
+          "msg32": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "as",
+            "create_at": "2024-02-07 19:32:06.698089"
+          },
+          "msg33": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "day roii",
+            "create_at": "2024-02-07 19:32:11.121692"
+          },
+          "msg34": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": ";-;",
+            "create_at": "2024-02-07 19:32:15.161329"
+          },
+          "msg35": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "ua?",
+            "create_at": "2024-02-07 19:34:35.733955"
+          },
+          "msg36": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "ha",
+            "create_at": "2024-02-07 19:37:36.283830"
+          },
+          "msg37": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "j",
+            "create_at": "2024-02-07 19:37:39.535212"
+          },
+          "msg38": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "ban",
+            "create_at": "2024-02-08 07:21:05.676777"
+          },
+          "msg39": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "ban oi",
+            "create_at": "2024-02-08 07:21:11.937151"
+          },
+          "msg40": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "chao ban",
+            "create_at": "2024-02-08 08:01:46.252075"
+          }
+        },
+        "msg_count": 40
+      },
+      "3": {
+        "recipient_user_name": "Admin3",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "",
+            "create_at": "2024-02-08 09:35:18.332153"
+          },
+          "msg2": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "anh oi",
+            "create_at": "2024-02-08 09:37:00.835424"
+          }
+        },
+        "msg_count": 2
+      },
+      "4": {
+        "recipient_user_name": "Admin4",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "",
+            "create_at": "2024-02-08 09:35:20.681204"
+          },
+          "msg2": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "e",
+            "create_at": "2024-02-08 09:44:19.212273"
+          }
+        },
+        "msg_count": 2
+      },
+      "5": {
+        "recipient_user_name": "Admin5",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "",
+            "create_at": "2024-02-08 09:35:22.072810"
+          },
+          "msg2": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "e",
+            "create_at": "2024-02-08 10:37:34.522661"
+          }
+        },
+        "msg_count": 2
+      },
+      "6": {
+        "recipient_user_name": "Namvu",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "UserId 6, Want to chat with u",
+            "create_at": "2024-02-08 09:37:10.826527"
+          },
+          "msg2": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "hehe",
+            "create_at": "2024-02-08 09:44:07.942218"
+          },
+          "msg3": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "hehe",
+            "create_at": "2024-02-08 10:29:09.010766"
+          }
+        },
+        "msg_count": 3
+      },
+      "7": {
+        "recipient_user_name": "Test",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "UserId 1, Want to chat with [7]Test",
+            "create_at": "2024-02-08 10:56:13.236832"
+          }
+        },
+        "msg_count": 1
+      }
+    },
+    "2": {
+      "1": {
+        "recipient_user_name": "Admin1",
+        "message_db": {
+          "msg1": {
+            "user_id": "1",
+            "user_name": "Admin1",
+            "message": "Hello",
+            "create_at": "2024-02-04 17:07:33.420024"
+          },
+          "msg2": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "Hi bro",
+            "create_at": "2024-02-07 09:53:30.281408"
+          },
+          "msg3": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "Chao ban",
+            "create_at": "2024-02-07 10:24:45.245792"
+          },
+          "msg4": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "Tui khong on roi",
+            "create_at": "2024-02-07 10:24:54.836608"
+          },
+          "msg5": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "test1",
+            "create_at": "2024-02-07 10:29:59.092864"
+          },
+          "msg6": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "test",
+            "create_at": "2024-02-07 10:45:35.026855"
+          },
+          "msg7": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "asd",
+            "create_at": "2024-02-07 10:46:09.020774"
+          },
+          "msg8": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "chao ban",
+            "create_at": "2024-02-07 10:46:57.513651"
+          },
+          "msg9": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "hi",
+            "create_at": "2024-02-07 17:22:49.060222"
+          },
+          "msg10": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "chao ban",
+            "create_at": "2024-02-07 17:23:11.022270"
+          },
+          "msg11": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "hi",
+            "create_at": "2024-02-07 17:31:10.115968"
+          },
+          "msg12": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "test1",
+            "create_at": "2024-02-07 17:36:49.757745"
+          },
+          "msg13": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "hi",
+            "create_at": "2024-02-07 17:53:31.143709"
+          },
+          "msg14": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "hi",
+            "create_at": "2024-02-07 18:14:51.386231"
+          },
+          "msg15": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "xong roiii",
+            "create_at": "2024-02-07 18:15:07.482553"
+          },
+          "msg16": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "met lam roi huhuhu",
+            "create_at": "2024-02-07 18:15:23.723380"
+          },
+          "msg17": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "test1",
+            "create_at": "2024-02-07 18:17:20.507544"
+          },
+          "msg18": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "Hi",
+            "create_at": "2024-02-07 19:02:45.560299"
+          },
+          "msg19": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "on khong ban",
+            "create_at": "2024-02-07 19:03:21.010483"
+          },
+          "msg20": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "a",
+            "create_at": "2024-02-07 19:04:52.714541"
+          },
+          "msg21": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "a",
+            "create_at": "2024-02-07 19:09:52.539139"
+          },
+          "msg22": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "a",
+            "create_at": "2024-02-07 19:11:06.192522"
+          },
+          "msg23": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "chao ban",
+            "create_at": "2024-02-07 19:11:44.882531"
+          },
+          "msg24": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "ban",
+            "create_at": "2024-02-07 19:13:03.647953"
+          },
+          "msg25": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "ban",
+            "create_at": "2024-02-07 19:13:07.711782"
+          },
+          "msg26": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "a",
+            "create_at": "2024-02-07 19:18:17.743244"
+          },
+          "msg27": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "a",
+            "create_at": "2024-02-07 19:22:01.251195"
+          },
+          "msg28": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "a",
+            "create_at": "2024-02-07 19:22:51.755166"
+          },
+          "msg29": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "asd",
+            "create_at": "2024-02-07 19:22:54.843273"
+          },
+          "msg30": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "helloooo",
+            "create_at": "2024-02-07 19:23:05.513564"
+          },
+          "msg31": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "aaa",
+            "create_at": "2024-02-07 19:26:17.411373"
+          },
+          "msg32": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "as",
+            "create_at": "2024-02-07 19:32:06.698089"
+          },
+          "msg33": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "day roii",
+            "create_at": "2024-02-07 19:32:11.121692"
+          },
+          "msg34": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": ";-;",
+            "create_at": "2024-02-07 19:32:15.161329"
+          },
+          "msg35": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "ua?",
+            "create_at": "2024-02-07 19:34:35.733955"
+          },
+          "msg36": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "ha",
+            "create_at": "2024-02-07 19:37:36.283830"
+          },
+          "msg37": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "j",
+            "create_at": "2024-02-07 19:37:39.535212"
+          },
+          "msg38": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "ban",
+            "create_at": "2024-02-08 07:21:05.676777"
+          },
+          "msg39": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "ban oi",
+            "create_at": "2024-02-08 07:21:11.937151"
+          },
+          "msg40": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "chao ban",
+            "create_at": "2024-02-08 08:01:46.252075"
+          }
+        },
+        "msg_count": 40
+      },
+      "7": {
+        "recipient_user_name": "Test",
+        "message_db": {
+          "msg1": {
+            "user_id": 7,
+            "user_name": "Test",
+            "message": "UserId 7, Want to chat with [2]Admin2",
+            "create_at": "2024-02-08 11:02:32.205156"
+          },
+          "msg2": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "asc",
+            "create_at": "2024-02-08 11:02:51.691708"
+          }
+        },
+        "msg_count": 2
+      }
+    },
+    "3": {
+      "1": {
+        "recipient_user_name": "Admin1",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "",
+            "create_at": "2024-02-08 09:35:18.332153"
+          },
+          "msg2": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "anh oi",
+            "create_at": "2024-02-08 09:37:00.835424"
+          }
+        },
+        "msg_count": 2
+      },
+      "6": {
+        "recipient_user_name": "Namvu",
+        "message_db": {
+          "msg1": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "UserId 3, Want to chat with u",
+            "create_at": "2024-02-08 09:38:27.360433"
+          }
+        },
+        "msg_count": 1
+      },
+      "7": {
+        "recipient_user_name": "Test",
+        "message_db": {
+          "msg1": {
+            "user_id": 7,
+            "user_name": "Test",
+            "message": "UserId 7, Want to chat with [3]Admin3",
+            "create_at": "2024-02-08 11:21:32.099568"
+          }
+        },
+        "msg_count": 1
+      }
+    },
+    "4": {
+      "1": {
+        "recipient_user_name": "Admin1",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "",
+            "create_at": "2024-02-08 09:35:20.681204"
+          },
+          "msg2": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "e",
+            "create_at": "2024-02-08 09:44:19.212273"
+          }
+        },
+        "msg_count": 2
+      },
+      "5": {
+        "recipient_user_name": "Admin5",
+        "message_db": {
+          "msg1": {
+            "user_id": 4,
+            "user_name": "Admin4",
+            "message": "UserId 5, Want to chat with u",
+            "create_at": "2024-02-08 10:38:49.915970"
+          }
+        },
+        "msg_count": 1
+      },
+      "6": {
+        "recipient_user_name": "Namvu",
+        "message_db": {
+          "msg1": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "UserId 6, Want to chat with [4]Admin4",
+            "create_at": "2024-02-08 10:44:43.121007"
+          },
+          "msg2": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "a",
+            "create_at": "2024-02-08 10:44:48.623419"
+          }
+        },
+        "msg_count": 2
+      },
+      "7": {
+        "recipient_user_name": "Test",
+        "message_db": {
+          "msg1": {
+            "user_id": 7,
+            "user_name": "Test",
+            "message": "UserId 7, Want to chat with [4]Admin4",
+            "create_at": "2024-02-08 11:22:57.589161"
+          },
+          "msg2": {
+            "user_id": 4,
+            "user_name": "Admin4",
+            "message": "cai gi",
+            "create_at": "2024-02-08 11:23:11.173217"
+          }
+        },
+        "msg_count": 2
+      }
+    },
+    "5": {
+      "1": {
+        "recipient_user_name": "Admin1",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "",
+            "create_at": "2024-02-08 09:35:22.072810"
+          },
+          "msg2": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "e",
+            "create_at": "2024-02-08 10:37:34.522661"
+          }
+        },
+        "msg_count": 2
+      },
+      "4": {
+        "recipient_user_name": "Admin4",
+        "message_db": {
+          "msg1": {
+            "user_id": 4,
+            "user_name": "Admin4",
+            "message": "UserId 5, Want to chat with u",
+            "create_at": "2024-02-08 10:38:49.915970"
+          }
+        },
+        "msg_count": 1
+      },
+      "6": {
+        "recipient_user_name": "Namvu",
+        "message_db": {
+          "msg1": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "UserId 6, Want to chat with [5]Admin5",
+            "create_at": "2024-02-08 15:59:26.174224"
+          }
+        },
+        "msg_count": 1
+      }
+    },
+    "6": {
+      "1": {
+        "recipient_user_name": "Admin1",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "UserId 6, Want to chat with u",
+            "create_at": "2024-02-08 09:37:10.826527"
+          },
+          "msg2": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "hehe",
+            "create_at": "2024-02-08 09:44:07.942218"
+          },
+          "msg3": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "hehe",
+            "create_at": "2024-02-08 10:29:09.010766"
+          }
+        },
+        "msg_count": 3
+      },
+      "3": {
+        "recipient_user_name": "Admin3",
+        "message_db": {
+          "msg1": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "UserId 3, Want to chat with u",
+            "create_at": "2024-02-08 09:38:27.360433"
+          }
+        },
+        "msg_count": 1
+      },
+      "4": {
+        "recipient_user_name": "Admin4",
+        "message_db": {
+          "msg1": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "UserId 6, Want to chat with [4]Admin4",
+            "create_at": "2024-02-08 10:44:43.121007"
+          },
+          "msg2": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "a",
+            "create_at": "2024-02-08 10:44:48.623419"
+          }
+        },
+        "msg_count": 2
+      },
+      "7": {
+        "recipient_user_name": "Test",
+        "message_db": {
+          "msg1": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "UserId 6, Want to chat with [7]Test",
+            "create_at": "2024-02-08 10:49:34.328117"
+          }
+        },
+        "msg_count": 1
+      },
+      "5": {
+        "recipient_user_name": "Admin5",
+        "message_db": {
+          "msg1": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "UserId 6, Want to chat with [5]Admin5",
+            "create_at": "2024-02-08 15:59:26.174224"
+          }
+        },
+        "msg_count": 1
+      }
+    },
+    "7": {
+      "6": {
+        "recipient_user_name": "Namvu",
+        "message_db": {
+          "msg1": {
+            "user_id": 6,
+            "user_name": "Namvu",
+            "message": "UserId 6, Want to chat with [7]Test",
+            "create_at": "2024-02-08 10:49:34.328117"
+          }
+        },
+        "msg_count": 1
+      },
+      "1": {
+        "recipient_user_name": "Admin1",
+        "message_db": {
+          "msg1": {
+            "user_id": 1,
+            "user_name": "Admin1",
+            "message": "UserId 1, Want to chat with [7]Test",
+            "create_at": "2024-02-08 10:56:13.236832"
+          }
+        },
+        "msg_count": 1
+      },
+      "2": {
+        "recipient_user_name": "Admin2",
+        "message_db": {
+          "msg1": {
+            "user_id": 7,
+            "user_name": "Test",
+            "message": "UserId 7, Want to chat with [2]Admin2",
+            "create_at": "2024-02-08 11:02:32.205156"
+          },
+          "msg2": {
+            "user_id": 2,
+            "user_name": "Admin2",
+            "message": "asc",
+            "create_at": "2024-02-08 11:02:51.691708"
+          }
+        },
+        "msg_count": 2
+      },
+      "3": {
+        "recipient_user_name": "Admin3",
+        "message_db": {
+          "msg1": {
+            "user_id": 7,
+            "user_name": "Test",
+            "message": "UserId 7, Want to chat with [3]Admin3",
+            "create_at": "2024-02-08 11:21:32.099568"
+          }
+        },
+        "msg_count": 1
+      },
+      "4": {
+        "recipient_user_name": "Admin4",
+        "message_db": {
+          "msg1": {
+            "user_id": 7,
+            "user_name": "Test",
+            "message": "UserId 7, Want to chat with [4]Admin4",
+            "create_at": "2024-02-08 11:22:57.589161"
+          },
+          "msg2": {
+            "user_id": 4,
+            "user_name": "Admin4",
+            "message": "cai gi",
+            "create_at": "2024-02-08 11:23:11.173217"
+          }
+        },
+        "msg_count": 2
+      }
+    }
+  }
+}
