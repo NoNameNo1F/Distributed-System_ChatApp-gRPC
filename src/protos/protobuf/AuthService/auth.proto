@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+package auth;
+
+service AuthService {
+    rpc SignIn(SignInRequest) returns (SignInResponse) {}
+    rpc SignUp(SignUpRequest) returns (SignUpResponse) {}
+    rpc SignOut(google.protobuf.Empty) returns (google.protobuf.Empty) {}
+}
+
+message SignInRequest {
+    string user_name = 1;
+    string password = 2;
+}
+
+message SignInResponse {
+    int32 user_id = 1;
+    string user_name = 2;
+    string metadata = 3;
+}
+
+message SignUpRequest {
+    string user_name = 1;
+    string password = 2;
+}
+
+message SignUpResponse {
+    int32 user_id = 1;
+}
