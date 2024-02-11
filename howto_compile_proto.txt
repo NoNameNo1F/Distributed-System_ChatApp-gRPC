@@ -1,0 +1,8 @@
+python -m grpc_tools.protoc -I ./src/protos/protobuf/ChatService/ --python_out=./src/protobuf/ChatService --grpc_python_out=./src/protobuf/ChatService ./src/protos/protobuf/ChatService/chat.proto
+
+import protobuf.ChatService.chat_pb2 as chat__pb2
+
+
+python -m grpc_tools.protoc -I ./src/protos/protobuf/AuthService/ --python_out=./src/protobuf/AuthService --grpc_python_out=./src/protobuf/AuthService ./src/protos/protobuf/AuthService/auth.proto
+
+import protobuf.AuthService.auth_pb2 as auth__pb2
