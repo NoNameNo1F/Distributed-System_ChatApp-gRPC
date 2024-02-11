@@ -1,0 +1,6 @@
+PySimpleGUI==4.60.5
+grpcio==1.6.0
+grpcio-tools==1.60.0
+protobuf==4.25.2
+python-dotenv==1.0.0
+PyJWT==2.8.0
